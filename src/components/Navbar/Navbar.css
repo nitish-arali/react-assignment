@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 18px;
+  color: white;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.mobile-menu-button {
+  display: none;
+}
+
+.desktop-menu {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: block;
+  }
+}
