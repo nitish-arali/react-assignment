@@ -31,7 +31,7 @@ const ProductDetailPage = () => {
     <>
       <h1 style={{ textAlign: "center", margin: "1rem" }}>Product Details</h1>
       <div style={{ display: "flex", margin: "1rem 3rem" }}>
-        <Row justify={"center"}>
+        <Row justify={"center"} className="Product-page">
           <Col span={10}>
             <img
               src={product.image}

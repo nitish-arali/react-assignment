@@ -141,7 +141,7 @@ const Navbar = () => {
             <Menu.Item
               key="cart"
               icon={
-                <Badge count={cartCount}>
+                <Badge showZero count={cartCount}>
                   <ShoppingCartOutlined />
                 </Badge>
               }
